@@ -12,7 +12,6 @@ namespace Lab02_01
         {
             try
             {
-                Console.WriteLine(0 > 1000000);
                 // Создание компании (свойства только для записи устанавливаются через конструктор)
                 var company = new CargoCompany("ГрузЭкспресс", 10000);
                 var company2 = new CargoCompany("ГрузЭкспресс2");
@@ -42,4 +41,5 @@ namespace Lab02_01
             }
         }
     }
+
 }
